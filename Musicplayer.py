@@ -10,7 +10,7 @@ class MusicPlayer:
         self.root.title("Music Player")
         self.root.geometry("800x500")
 
-        self.icon = tk.PhotoImage(file=r"C:/Users/ARAVIND/Documents/Music player/appicon.png")
+        self.icon = tk.PhotoImage(file=r"file path")
         self.root.iconphoto(False, self.icon)
 
         self.current_song = ""
@@ -19,14 +19,14 @@ class MusicPlayer:
         self.current_index = -1
         self.playing = False  
 
-        self.background_image = ImageTk.PhotoImage(Image.open(r"C:/Users/ARAVIND/Documents/Music player/background.png").resize((750,
+        self.background_image = ImageTk.PhotoImage(Image.open(r"file path").resize((750,
                                                                                                                                  750), Image.Resampling.LANCZOS))
-        self.play_image = ImageTk.PhotoImage(Image.open(r"C:/Users/ARAVIND/Documents/Music player/play.png").resize((50, 50), Image.Resampling.LANCZOS))
-        self.pause_image = ImageTk.PhotoImage(Image.open(r"C:/Users/ARAVIND/Documents/Music player/pause.png").resize((50, 50), Image.Resampling.LANCZOS))
-        self.next_image = ImageTk.PhotoImage(Image.open(r"C:/Users/ARAVIND/Documents/Music player/next.png").resize((50, 50), Image.Resampling.LANCZOS))
-        self.prev_image = ImageTk.PhotoImage(Image.open(r"C:/Users/ARAVIND/Documents/Music player/previous.png").resize((50, 50), Image.Resampling.LANCZOS))
-        self.volume_image = ImageTk.PhotoImage(Image.open(r"C:/Users/ARAVIND/Documents/Music player/volume.png").resize((50, 50), Image.Resampling.LANCZOS))
-        self.browse_image = ImageTk.PhotoImage(Image.open(r"C:/Users/ARAVIND/Documents/Music player/browse.png").resize((50, 50), Image.Resampling.LANCZOS))
+        self.play_image = ImageTk.PhotoImage(Image.open(r"file path").resize((50, 50), Image.Resampling.LANCZOS))
+        self.pause_image = ImageTk.PhotoImage(Image.open(r"file path").resize((50, 50), Image.Resampling.LANCZOS))
+        self.next_image = ImageTk.PhotoImage(Image.open(r"file path ").resize((50, 50), Image.Resampling.LANCZOS))
+        self.prev_image = ImageTk.PhotoImage(Image.open(r"file path ").resize((50, 50), Image.Resampling.LANCZOS))
+        self.volume_image = ImageTk.PhotoImage(Image.open(r"file path ").resize((50, 50), Image.Resampling.LANCZOS))
+        self.browse_image = ImageTk.PhotoImage(Image.open(r"file path ").resize((50, 50), Image.Resampling.LANCZOS))
 
        
         self.background_label = tk.Label(self.root, image=self.background_image)
