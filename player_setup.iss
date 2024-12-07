@@ -1,6 +1,6 @@
 [Setup]
 AppName=Music Player
-AppVersion=1.0
+AppVersion=1.9
 DefaultDirName={pf}\MusicPlayer
 DefaultGroupName=MusicPlayer
 OutputDir=Output
